@@ -1,0 +1,12 @@
+.container {
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    border-radius: 1em;
+    text-align: center;
+}
+.resultado {
+    margin-top: 1em;
+    border-radius: 1em;
+    text-align: center;
+}

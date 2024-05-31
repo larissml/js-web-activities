@@ -1,0 +1,37 @@
+form {
+    margin: 0 auto;
+    width: 400px;
+    padding:1em;
+    border: 1px solid #000;
+    border-radius:1em;
+}
+
+/*da espaço entre as divs*/
+form div + div {
+    margin-top:1em;
+}
+
+/*todos os campos estejam do mesmo tamanho e alinhados*/
+label{
+    display:inline-block;
+    width: 90px;
+    text-align: right;
+}
+textarea{
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+}
+input:focus,
+textarea:focus {
+  /* Da destaque nos elementos ativos */
+  border-color: #000;
+}
+.button {
+    padding-left: 90px;
+
+}
+
+button{
+    margin-left:0.5em;
+}

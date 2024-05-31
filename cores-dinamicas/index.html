@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>cores</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="texto">
+        <h1>Titulo do texto</h1>
+        <p>Explore o mundo ao seu redor com novos olhos. Descubra a beleza nas pequenas coisas, 
+        encontre alegria nas experiências simples e abrace cada momento com gratidão. 
+        A vida é uma jornada cheia de surpresas e oportunidades. 
+        Aproveite cada passo do caminho e crie memórias que durarão para sempre.</p>
+    </div>
+    <div>
+        <button onclick="mudarPreto()">PRETO</button>
+        <button onclick="mudarVermelho()">VERMELHO</button>
+        <button onclick="mudarAzul()">AZUL</button>
+        <button onclick="mudarBranco()">BRANCO</button>
+    </div>  
+  </body>
+    <script>
+        function mudarPreto() {
+            var body = document.body;
+            body.style.background ="black";
+            body.style.color="white";
+        }
+        function mudarBranco() {
+            var body = document.body;
+            body.style.background = "white";
+            body.style.color="black";
+        }
+        function mudarAzul() {
+            var body = document.body;
+            body.style.background = "lightblue";
+            body.style.color ="darkblue";
+        }
+        function mudarVermelho() {
+            var body = document.body;
+            body.style.background = "red";
+            body.style.color ="yellow";
+        }
+    </script>
+</html>

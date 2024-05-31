@@ -1,0 +1,21 @@
+.calculadora{
+    margin: 0 auto;
+    width: 400px;
+    padding:1em;
+    border: 1px solid #000;
+    border-radius:1em;
+}
+h1{
+    text-align: center;
+    
+}
+button{
+    margin-top: 10px;
+}
+
+.resultado {
+    text-align: center;
+    margin-top: 10px;
+    border: 1px solid #785e5e;
+    border-radius:1em;
+}
